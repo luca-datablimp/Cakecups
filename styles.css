@@ -9,45 +9,45 @@ body {
 }
 
 .header-logo {
-    color: #7EBDC2;
+    color: rgb(126,189,194);
     font-size: 25px;
     font-family: Palatino;
     font-style: italic;
     position: absolute;
-    left: 25px;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 23px;
+    top: 23px;
 }
-
-.header-link {
+.header-cta {
     position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.button {
+    right: 23px;
+    top: 13px;
     font-family: "Courier New";
     font-weight: bold;
     letter-spacing: .4px;
     text-transform: uppercase;
     color: white;
-    background-color: #EF6F6C;
+    background-color: rgb(239,111,108);
     font-size: 17px;
     padding: 15px 25px;
     border-radius: 15px;
     text-decoration: none;
 }
 
-.button--large {
+.call-to-action {
+    font-family: "Courier New";
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(239,111,108);
+    text-decoration: none;
     letter-spacing: .5px;
     font-size: 20px;
     padding: 18px 28px;
     border-radius: 18px;
 }
 
-.button:hover {
-    background-color: #ff7571;
+.call-to-action {
+    background-color: rgb(255,117,113);
 }
 
 .homepage-main-section {
