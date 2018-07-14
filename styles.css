@@ -17,6 +17,7 @@ body {
     left: 23px;
     top: 23px;
 }
+
 .header-cta {
     position: absolute;
     right: 23px;
@@ -33,6 +34,10 @@ body {
     text-decoration: none;
 }
 
+.header-cta:hover {
+    background-color: rgb(255, 117, 113);
+}
+
 .call-to-action {
     font-family: "Courier New";
     letter-spacing: .4px;
@@ -46,7 +51,7 @@ body {
     border-radius: 18px;
 }
 
-.call-to-action {
+.call-to-action:hover {
     background-color: rgb(255,117,113);
 }
 
